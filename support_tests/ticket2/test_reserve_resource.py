@@ -35,7 +35,7 @@ def test_reserve_resources():#role):
 
 #@pytest.mark.usefixtures("chronos_cleanup")
 def test_install_package_with_json_options():
-    install_package('chronos', None, 'big-chronos', None, {"chronos": {"cpus": 3}})
+    install_package('chronos', None, 'test-chronos2', None, {"chronos": {"cpus": 3}})
 
 
 def reserve_resource(agent, role):
