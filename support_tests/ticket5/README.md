@@ -1,0 +1,1 @@
+Customer wants each instance of Chronos to only be deployed per node, they are finding that their three instances of Chronos get deployed randomly. Sometimes they're all on one node, sometimes distributed evenly. 
