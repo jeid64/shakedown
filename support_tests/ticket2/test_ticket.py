@@ -6,10 +6,10 @@ from shakedown.dcos import dcos_agents_state, master_url
 
 from shakedown import *
 
-def test_unreserve_all_resources():
+def test_ur_resources():
     unreserve_resources('testrole')
 
-def test_reserve_resources():#role):
+def test_break_cluster():#role):
     role = None
     """ Reserves all the resources for all the slaves for the role.
     """
